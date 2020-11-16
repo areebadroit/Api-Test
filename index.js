@@ -29,7 +29,9 @@ app.get("/data", (req, res) => {
     res.send(v1.concat(v2));
  });
 
-
+ app.get("/", (req, res) => { 
+    res.redirect("/data");
+ });
 
 
 
