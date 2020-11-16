@@ -30,12 +30,14 @@ app.get("/data", (req, res) => {
  });
 
  app.get("/", (req, res) => { 
-    res.redirect("/data");
+    var v3 = between(111111, 9999999).toString();
+    var v4 = v1.concat(v3);
+    res.render("home.ejs", {data:v4});
  });
 
 
 
 
 app.listen(process.env.PORT || 4000, () => {
-    console.log(`The wordWrap Server has started`);
+    console.log(`The API Server has started`);
 });
