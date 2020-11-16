@@ -1,0 +1,24 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "A node project to fetch random data using api queries",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/areebadroit/Api-Test.git"
+  },
+  "author": "Md Areeb Ansar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/areebadroit/Api-Test/issues"
+  },
+  "homepage": "https://github.com/areebadroit/Api-Test#readme"
+}
